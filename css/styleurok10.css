@@ -1,0 +1,20 @@
+.navigation {
+	opacity: 0.5;
+	background-color: #000;
+	height: 150px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.center {
+	margin: 160px auto;
+	width: 400px;
+	height: 400px;
+	background-color: #222;	
+}
+.text {
+	display: table-cell;
+	padding: 15px 20px 10px 20px;
+	color: red;
+}
