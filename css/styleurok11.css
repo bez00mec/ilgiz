@@ -1,0 +1,49 @@
+.main-head {
+	margin-top: 3%;	
+}
+.main-logo-border {
+	width: 155px;
+	height: 55px;
+	border: 3px solid #706b73;
+	text-align: center;
+	line-height: 49px;
+}
+.main-logo-border p {
+	font-family: 'Open sans', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	color: #706b73;
+}
+.color-logo {
+	color: #fc7254;
+}
+.main-nav {
+	text-align: right;
+}
+.main-nav-bar {
+	width: 35px;
+}
+.line1 {
+	display: inline-block;
+	width: 35px;
+	height: 5px;
+	background-color: #706b73;
+	border-radius: 2px;
+}
+.line2 {
+	display: inline-block;
+	width: 35px;
+	height: 5px;
+	background-color: #706b73;
+	border-radius: 2px;
+}
+.line3 {	
+	display: inline-block;
+	width: 35px;
+	height: 5px;
+	background-color: #706b73;
+	border-radius: 2px;
+}
+.burger {
+	line-height: 1;
+}
