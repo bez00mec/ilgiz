@@ -1,0 +1,135 @@
+/* Fonts files*/
+.opn-reg {
+	font-family: "Open sans", sans-serif;
+	font-weight: 400;
+}
+.opn-bold {
+	font-family: 'Open sans', sans-serif;
+	font-weight: 600;
+}
+/*Base colors*/
+@base-black: #706b73;
+@base-red: #fc7254;
+@white: #FFF;
+input, button, textarea {
+	&:focus {
+		outline: none;
+	}
+}
+header {
+	height: 100vh;
+}
+.main-head {
+	margin-top: 3%;	
+}
+.main-logo-border {
+	width: 155px;
+	height: 55px;
+	border: 3px solid #706b73;
+	text-align: center;
+	line-height: 49px;
+}
+.main-logo-border p {
+	.opn-bold;
+	font-size: 36px;
+	color: #706b73;
+}
+.color-logo {
+	color: #fa9a87;
+}
+.main-nav {
+	text-align: right;
+}
+.main-nav-bar {
+	width: 35px;
+}
+.line1 {
+	display: inline-block;
+	width: 35px;
+	height: 5px;
+	background-color: #706b73;
+	border-radius: 2px;
+}
+.line2 {
+	display: inline-block;
+	width: 35px;
+	height: 5px;
+	background-color: #706b73;
+	border-radius: 2px;
+}
+.line3 {	
+	display: inline-block;
+	width: 35px;
+	height: 5px;
+	background-color: #706b73;
+	border-radius: 2px;
+}
+.burger {
+	line-height: 1;
+}
+.main {
+	background-color: #f5f5f5;
+		&-text {
+			.opn-bold;
+			color: #6e6e6e;
+			text-align: center;
+			margin-top: 5%;
+				h1 {
+					.opn-bold;
+					span {
+						color: @base-red;
+					}
+
+				}
+				p {
+					color: #acacac; 
+				}
+			}
+		&-form {
+			.opn-bold;
+			p {
+				color: @base-black;
+			}
+			font-weight: 20px;
+			background-color: #fff;
+			margin-top: 5%;
+			padding: 35px;
+			-webkit-box-shadow: 0px 0px 57px 0px rgba(20,20,21,0.2);
+			 box-shadow: 0px 0px 57px 0px rgba(20,20,21,0.2); 
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			-ms-border-radius: 3px;
+			-o-border-radius: 3px;
+			border-radius: 3px;
+			&-header {
+				text-align: center;
+				font-size: 20px;
+				.opn-bold;
+				span {
+					color: @base-red;
+				}
+			}
+			&-btn {
+				background-color: @base-red;
+				color: #fff;
+				font-size: 16px;
+				border: none;
+				padding: 15px 30px;
+				display: block;
+				margin: 0 auto;
+				margin-top: 30px;
+				-webkit-border-radius: 50px;
+				-moz-border-radius: 50px;
+				-ms-border-radius: 50px;
+				-o-border-radius: 50px;
+				border-radius: 50px;
+			}
+			input, textarea {
+				width: 100%;
+				border: none;
+				border-bottom: 1px solid #acacac;
+				padding-top: 30px;
+				font-style: 15px;
+			}
+		}
+}
